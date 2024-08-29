@@ -39,7 +39,3 @@ def load_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-def reset_selectbox():
-    st.session_state.selected_nivel1 = 'Exibir Tudo'
-    st.session_state.selected_nivel2 = 'Todos'
-    st.session_state.search_term = ''
