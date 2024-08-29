@@ -1,0 +1,10 @@
+/* style.css */
+.stTextInput {
+    width: 300px;  /* Define a largura da text box */
+    height: 55px;  /* Define a altura da text box */
+    font-size: 18px;  /* Define o tamanho da fonte */
+}
+
+.stButton {
+    color: red;
+}
