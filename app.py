@@ -45,6 +45,8 @@ def main():
     # Mostrar dados filtrados
     show_detailed_view(selected_nivel1, selected_nivel2)
 
+    st.checkbox("selecione")
+
 if __name__ == "__main__":
     main()
 
